@@ -8,7 +8,8 @@ $(document).ready(function() {
 		video[0].load();
 		video[0].play();
 	});
-	videojs('my-video').ready(function() {
+});
+videojs('my-video').ready(function() {
 		this.hotkeys({
 			volumeStep: 0.1,
 			seekStep: 15,
@@ -18,4 +19,3 @@ $(document).ready(function() {
 			enableVolumeScroll: true,
 		});
 	});
-});
