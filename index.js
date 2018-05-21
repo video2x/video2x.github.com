@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.submit').click(function() {
+	$('input#url').change(function() {
 		link = $('.link').val();
 		video = $('video');
 		source = $('.source');
