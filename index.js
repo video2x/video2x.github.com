@@ -11,7 +11,7 @@ $(document).ready(function() {
 	var url_string = window.location.href;
 	var url = new URL(url_string);
 	var link = url.searchParams.get("url");
-	console.log(c);
+	console.log(url);
 });
 videojs('my-video').ready(function() {
 		this.hotkeys({
