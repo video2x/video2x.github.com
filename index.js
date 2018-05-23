@@ -8,7 +8,8 @@ $(document).ready(function() {
 		video[0].load();
 		video[0].play();
 	});
-	var url_string = new URL(window.location.href);
+	var full_url=window.location.href;
+	var url_string = new URL(full_url);
 	var url = url_string.searchParams.get("url");
 	if(url!=null){
 		video = $('video');
