@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 	var url_string = new URL(window.location.href);
 	var url = url_string.searchParams.get("url");
-	if(url!=NULL){
+	if(url!=null){
 		video = $('video');
 		source = $('.source');
 		source.attr('src',url);
