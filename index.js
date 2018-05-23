@@ -8,6 +8,10 @@ $(document).ready(function() {
 		video[0].load();
 		video[0].play();
 	});
+	var url_string = window.location.href;
+	var url = new URL(url_string);
+	var link = url.searchParams.get("url");
+	console.log(c);
 });
 videojs('my-video').ready(function() {
 		this.hotkeys({
